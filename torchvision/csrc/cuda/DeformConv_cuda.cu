@@ -185,7 +185,7 @@ __global__ void deformable_im2col_gpu_kernel(
   }
 }
 
-static void deformable_im2col(
+//static void deformable_im2col(
     const at::Tensor input,
     const at::Tensor data_offset,
     int n_in_channels,
